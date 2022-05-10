@@ -3,7 +3,7 @@
 There are two branches:
 
 - The `challenge` branch contain a few bugs/challenges that you need to solve as part of the tasks in this lab.
-- The `main` branch contain solutions to all tasks in this lab and can be used as reference in case you get stuck.
+- The `solution` branch contain solutions to all tasks in this lab and can be used as reference in case you get stuck.
 
 📖 Remember, doing this lab is all about learning. Solving problems is often a good mechanism to reinforce learning and it is therefore highly recommended that you use the `challenge` branch for this lab. Please take your time to dive deep and to learn and be curious.
 
