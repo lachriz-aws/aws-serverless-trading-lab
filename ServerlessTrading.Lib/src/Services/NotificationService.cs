@@ -56,12 +56,7 @@ namespace ServerlessTrading.Lib.Services
             _logger.LogInformation(message);
 
             // Publish notification
-            var publishRequest = new PublishRequest
-            {
-                TopicArn = _options.SnsNotificationTopicArn,
-                Message = message
-            };
-            await _snsClient.PublishAsync(publishRequest);
+            // TODO: Lab task
         }
     }
 }

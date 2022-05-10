@@ -26,33 +26,14 @@ namespace ServerlessTrading.Lib.Services
         public async Task<List<TradeEntity>> GetTradesAsync()
         {
             var result = new List<TradeEntity>();
-            var paginator = _dynamoClient.Paginators.Scan(new ScanRequest(_options.TradesTableName));
-            await foreach (var response in paginator.Responses)
-            {
-                var games = response.Items.Select(x => JsonSerializer.Deserialize<TradeEntity>(Document.FromAttributeMap(x).ToJson()));
-                result.AddRange(games!);
-            }
+            // TODO: Lab task
             return result;
         }
 
         public async Task<TradeEntity?> GetTradeAsync(string? tradeId)
         {
-            var response = await _dynamoClient.QueryAsync(new QueryRequest(_options.TradesTableName)
-            {
-                KeyConditionExpression = "#TradeId = :TradeId",
-                ExpressionAttributeNames = new Dictionary<string, string>
-                {
-                    ["#TradeId"] = "trade_id"
-                },
-                ExpressionAttributeValues = new Dictionary<string, AttributeValue>
-                {
-                    [":TradeId"] = new(tradeId)
-                }
-            });
-            var item = response.Items.FirstOrDefault();
-            return item == null
-                ? null
-                : JsonSerializer.Deserialize<TradeEntity>(Document.FromAttributeMap(item).ToJson());
+            // TODO: Lab task
+            return null;
         }
 
         public async Task<TradeEntity> PutTradeAsync(string? tradeCurrency, string? tradeType, int traderId, int tradeAmount)
