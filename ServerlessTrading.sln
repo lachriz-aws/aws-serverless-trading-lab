@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerlessTrading.Lib", "ServerlessTrading.Lib\src\ServerlessTrading.Lib.csproj", "{60E76FC4-63CF-4549-AC2B-B214189E3BD1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerlessTrading.Api", "ServerlessTrading.Api\src\ServerlessTrading.Api.csproj", "{F34AAFC2-09DA-431F-BDA6-8D01D9060DA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerlessTrading.Entities", "ServerlessTrading.Entities\src\ServerlessTrading.Entities.csproj", "{9EC35062-A507-45C7-BC72-A4C6A136973C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerlessTrading.Infra", "ServerlessTrading.Infra\src\ServerlessTrading.Infra.csproj", "{A61FEF0D-25D4-42E9-895C-2F2323B9FB2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessTrading.Functions", "ServerlessTrading.Functions\src\ServerlessTrading.Functions.csproj", "{0BCADA06-B01D-4DBB-8CDC-0BB576A14105}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60E76FC4-63CF-4549-AC2B-B214189E3BD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60E76FC4-63CF-4549-AC2B-B214189E3BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60E76FC4-63CF-4549-AC2B-B214189E3BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60E76FC4-63CF-4549-AC2B-B214189E3BD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F34AAFC2-09DA-431F-BDA6-8D01D9060DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F34AAFC2-09DA-431F-BDA6-8D01D9060DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F34AAFC2-09DA-431F-BDA6-8D01D9060DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F34AAFC2-09DA-431F-BDA6-8D01D9060DA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC35062-A507-45C7-BC72-A4C6A136973C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC35062-A507-45C7-BC72-A4C6A136973C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC35062-A507-45C7-BC72-A4C6A136973C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC35062-A507-45C7-BC72-A4C6A136973C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A61FEF0D-25D4-42E9-895C-2F2323B9FB2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61FEF0D-25D4-42E9-895C-2F2323B9FB2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A61FEF0D-25D4-42E9-895C-2F2323B9FB2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A61FEF0D-25D4-42E9-895C-2F2323B9FB2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BCADA06-B01D-4DBB-8CDC-0BB576A14105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BCADA06-B01D-4DBB-8CDC-0BB576A14105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BCADA06-B01D-4DBB-8CDC-0BB576A14105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BCADA06-B01D-4DBB-8CDC-0BB576A14105}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DAF1E08-8635-41C8-96E6-DE1DA6F7D33E}
+	EndGlobalSection
+EndGlobal
